@@ -1,0 +1,29 @@
+ ORM --  MVC -- RPC -- SOA -- 微服务
+ 
+ https://www.bootschool.net/ascii  生成自定义banner
+ 
+ 注解的原理： 反射
+ 
+ 内置注解：
+  @override
+  @Deprecated
+  @SuppressWarnings -> 抑制编写编译时的警告信息
+ 
+ 元注解：
+  @Target
+  @Retention
+  @Document
+  @Inherited
+  
+ SPI：service provider interface
+ 
+ 配置文件位置优先级：
+      file:./config
+      file:./
+      classpath:/config/
+      classpath:/
+      
+   devtool  jrebel(需要激活)
+   
+   springboot + servlet：
+    
