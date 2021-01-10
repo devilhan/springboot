@@ -27,5 +27,10 @@
       
    devtool  jrebel(需要激活)
    
-   springboot + servlet：
-    
+   springboot 国际化：
+     将编码改为UTF-8 
+     在resource，目录下创建i18n文件夹
+     新增login.properties文件
+     新增login_zh_CN.properties文件
+     国际化效果此时可以显示出来
+     
