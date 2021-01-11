@@ -34,3 +34,19 @@
      新增login_zh_CN.properties文件
      国际化效果此时可以显示出来
      
+   
+     
+     
+     
+  
+  启动当前应用程序main -->  springapplication.run()  -> new SpringApplication() -->  1.配置resourceloader
+                                                              |                      2.判断当前应用程序的类型
+                                                             run().启动              3.获取初始化器的实例对象
+                                                              |                      4.获取监听器的实例对象
+                                                    ConfigurableApplicationContext   5. 找到当前应用程序的主类
+                                                       1.设置启动时的时间值 stopwatch
+                                                       2.设置应用上下文
+                                                       3.设置异常构造器
+                                                       4.设置java.awt.headless 为 true
+                                                               
+                                                    
