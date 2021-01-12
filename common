@@ -93,6 +93,7 @@
              //从spring.factories中获取failureAnalyzer 
              exceptionReporters = getSpringFactoriesInstances(SpringBootExceptionReporter.class,
                new Class[] { ConfigurableApplicationContext.class }, context);
+             //准备应用上下文，向环境中注入参数
              prepareContext(context, environment, listeners, applicationArguments, printedBanner);
              refreshContext(context);
              afterRefresh(context, applicationArguments);
