@@ -105,5 +105,8 @@
              callRunners(context, applicationArguments);
             }
        
-          
+        
+      tomcat的组件：
+       server service connector engine host context   
+       
                                                     
